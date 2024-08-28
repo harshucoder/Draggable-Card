@@ -1,13 +1,16 @@
-<<<<<<< HEAD
-# React + Vite
+# Draggable Cards with Constraints Using React & Framer Motion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates how to create draggable cards with constraints using React and Framer Motion. The cards are limited to stay within a defined area and cannot be dragged outside of their container.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# Draggable-Cards
-Draggable Cards with Constraints: A React app using Framer Motion to create draggable cards constrained within their container. Features interactive dragging, dynamic styling, and responsive design. Ideal for learning drag interactions and constraints in React with Framer Motion.
->>>>>>> origin/main
+- **Draggable Cards**: Users can drag the cards around within the container.
+- **Constraints**: Cards are constrained to stay within the boundaries of the container.
+- **Dynamic Styles**: Card colors and other styles are dynamically set based on the data passed to them.
+- **Responsive Layout**: The layout adjusts to different screen sizes.
+
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces.
+- **Framer Motion**: Library for animations and gesture handling in React.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
